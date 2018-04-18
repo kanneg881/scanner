@@ -5,7 +5,7 @@
  * @author Enjoy
  */
 
-namespace Enjoy\Url;
+namespace TaiwanEnjoy\Url;
 
 use Exception;
 use GuzzleHttp\Client;
