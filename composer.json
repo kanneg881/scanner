@@ -1,12 +1,12 @@
 {
-    "name": "TaiwanEnjoy/scanner",
+    "name": "taiwan-enjoy/scanner",
     "description": "從CSV檔掃描網址並且回報無法進入的網址",
     "keywords": ["url", "scanner", "csv", "TaiwanEnjoy"],
     "homepage": "https://github.com/kanneg881/scanner",
     "license": "MIT",
     "authors": [
         {
-            "name": "TaiwanEnjoy",
+            "name": "Enjoy",
             "homepage": "https://github.com/kanneg881",
             "role": "Developer"
         }
