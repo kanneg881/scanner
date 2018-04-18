@@ -1,0 +1,32 @@
+{
+    "name": "enjoy/scanner",
+    "description": "從CSV檔掃描網址並且回報無法進入的網址",
+    "keywords": ["url", "scanner", "csv", "enjoy"],
+    "homepage": "https://github.com/kanneg881",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enjoy",
+            "homepage": "https://github.com/kanneg881",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "kanneg881@gmail.com"
+    },
+    "require": {
+        "php" : ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "suggest": {
+        "league/csv": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enjoy\\": "src/"
+        }
+    }
+}
