@@ -2,7 +2,7 @@
 /**
  * 網址掃瞄器
  *
- * @author Enjoy
+ * @author TaiwanEnjoy
  */
 
 namespace TaiwanEnjoy\Url;
