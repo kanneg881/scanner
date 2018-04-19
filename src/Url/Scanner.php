@@ -35,6 +35,7 @@ class Scanner
      * 取得無效的網址
      *
      * @return array 無效的網址
+     * @throws GuzzleException
      */
     public function getInvalidUrls()
     {
@@ -65,14 +66,12 @@ class Scanner
      *
      * @param string $url 網址
      * @return int http 狀態碼
+     * @throws GuzzleException
      */
     protected function getStatusCodeForUrl($url)
     {
-        try {
-            /** @var Response $httpResponse http 回應 */
-            $httpResponse = $this->httpClient->request('GET', $url);
-        } catch (GuzzleException $guzzleException) {
-        }
+        /** @var Response $httpResponse http 回應 */
+        $httpResponse = $this->httpClient->request('GET', $url);
 
         return $httpResponse->getStatusCode();
     }
